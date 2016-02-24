@@ -15,8 +15,6 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-#ifdef AVR
-
 #ifndef __AFSK_AVR_H__
 #define __AFSK_AVR_H__
 
@@ -88,4 +86,3 @@ void afsk_debug();
 #endif
 
 #endif
-#endif // AVR

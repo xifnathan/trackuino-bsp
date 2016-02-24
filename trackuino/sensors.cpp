@@ -21,11 +21,9 @@
  * http://code.google.com/p/tinkerit/wiki/SecretVoltmeter
  */
 
-#ifdef AVR
-
 #include "config.h"
 #include "pin.h"
-#include "sensors_avr.h"
+#include "sensors.h"
 #if (ARDUINO + 1) >= 100
 #  include <Arduino.h>
 #else
@@ -136,4 +134,3 @@ int sensors_vin()
 
 
 #endif
-#endif // ifdef AVR

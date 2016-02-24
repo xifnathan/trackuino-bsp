@@ -15,8 +15,6 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-#ifdef AVR
-
 #include "pin.h"
 #include <stdint.h>
 #include <pins_arduino.h>
@@ -51,4 +49,3 @@ void pin_write(uint8_t pin, uint8_t val)
   }
 }
 
-#endif  // AVR

@@ -15,7 +15,6 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-#ifdef AVR
 #ifndef __SENSORS_AVR_H__
 #define __SENSORS_AVR_H__
 
@@ -27,4 +26,3 @@ int sensors_ext_lm60();
 int sensors_vin();
 
 #endif // ifndef __SENSORS_AVR_H__
-#endif // ifdef AVR
