@@ -35,13 +35,13 @@
 
 // Trackuino custom libs
 #include "config.h"
-#include "afsk_avr.h"
+#include "afsk.h"
 #include "aprs.h"
 #include "buzzer.h"
 #include "gps.h"
 #include "pin.h"
 #include "power.h"
-#include "sensors_avr.h"
+#include "sensors.h"
 
 // Arduino/AVR libs
 #if (ARDUINO + 1) >= 100

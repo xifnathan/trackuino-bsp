@@ -15,10 +15,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-#ifdef AVR
-
-#ifndef __AFSK_AVR_H__
-#define __AFSK_AVR_H__
+#ifndef __AFSK_H__
+#define __AFSK_H__
 
 #include <stdint.h>
 #include <avr/pgmspace.h>
@@ -53,11 +51,6 @@ inline void afsk_output_sample(uint8_t s)
   OCR2 = s;
 }
 
-inline void afsk_clear_interrupt_flag()
-{
-  // atmegas don't need this as opposed to pic32s.
-}
-
 #ifdef DEBUG_MODEM
 inline uint16_t afsk_timer_counter()
 {
@@ -88,4 +81,3 @@ void afsk_debug();
 #endif
 
 #endif
-#endif // AVR

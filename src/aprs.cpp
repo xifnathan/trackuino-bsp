@@ -19,7 +19,7 @@
 #include "ax25.h"
 #include "gps.h"
 #include "aprs.h"
-#include "sensors_avr.h"
+#include "sensors.h"
 #include <stdio.h>
 #include <stdlib.h>
 #if (ARDUINO + 1) >= 100
