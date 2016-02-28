@@ -173,7 +173,7 @@
 // it must be between L and 65535, where L = F_CPU / 65535 and F_CPU is the
 // clock rate in hertzs. For 16 MHz Arduinos, this gives a lower limit of 
 // 245 Hz.
-#define BUZZER_FREQ             895     // Hz
+#define BUZZER_FREQ             4000     // Hz
 
 // These are the number of seconds the buzzer will stay on/off alternately
 #define BUZZER_ON_TIME          1       // secs
