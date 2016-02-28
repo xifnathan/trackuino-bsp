@@ -1,5 +1,3 @@
-![Banner](https://github.com/trackuino/trackuino/wiki/img/trackuino-banner-narrow.png)
-
 This is the firmware for Trackuino, an open-source APRS tracker based on the Arduino platform. It was designed primarily to track high altitude balloons, so it has other handy features like reading temperature sensors and a buzzer for acoustic location.
 
 Trackuino is intended for use by licensed radio amateurs.
@@ -17,13 +15,6 @@ Features
  * 2 x SMA female plugs (1 x GPS in + 1 x radio out)
  * Open source (GPLv2 license), both software and hardware. In other words, do whatever you want with it: modify it, add it to your project, etc. as long as you opensource your modifications as well.
 
-Download
-========
-
-The latest version is 1.51.
-
-Use the `Download ZIP` button to get the source code.
-
 Building
 ========
 
@@ -39,22 +30,3 @@ Flashing
 ========
 
 **Important**: When flashing the Arduino/Uno32, remove the Venus GPS or the entire Trackuino shield. After flashing the firmware, you can plug it back in. The GPS and the host computer share the same serial port on the AVR, so they will conflict when used together.
-
-Hardware
-========
-
-The [Trackuino shield](https://github.com/trackuino/shield) repository contains the Eagle schematic / pcb files of a shield you can build as-is (gerber files are included) or modify to suit your needs. Check its README for details.
-
-Related projects
-================
-
-Some other HAB-related projects I wrote:
-
-  * https://github.com/trackuino/hab-tracker - balloon trajectory prediction tool for Android 
-  * https://github.com/trackuino/aprsdb - an efficient and queriable APRS database server (required by the Hab Tracker Android app)
-  * https://github.com/trackuino/chdk-intervalometer - a LUA intervalometer for the old Canon A570IS camera (which might work on other CHDK cameras too)
-
-Support
-=======
-
-Discuss firmware bugs or suggestions in the issue tracker, or ask for help at the [http://hab-ham.org/forum/](hab-ham.org forum).
